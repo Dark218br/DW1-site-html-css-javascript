@@ -1,0 +1,92 @@
+body{
+    font-family: verdana;
+    font-size: 16px;
+    margin: 0;
+}
+
+.menu{
+    background-color: #000;
+    color: #fff;
+}
+
+.menu nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu nav li{
+    padding: 10px;
+}
+
+.menu nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.slider{
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active{
+    opacity: 1;
+}
+
+.pagina{
+    background-color: #FF00FF;
+    width: 800px;
+    height: 800px;
+    margin: 0px auto;
+}
+
+.menu{
+    background-color: #000;
+    width: 800px;
+    height: 50px;
+    color: #fff;
+}
+
+.conteudo{
+    background-color: #D2691E;
+    width: 800px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    background-color: #DCDCDC;
+    flex: 1 1 30%;
+    margin: 5px;
+    min-width: 200px;
+}
+
+.rodape{
+    background-color: #000;
+    height: 50px;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+}
+
+.produto{
+    margin-top: 0;
+    font-size: 18px;
+    text-align: center;
+}
